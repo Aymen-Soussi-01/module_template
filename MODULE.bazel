@@ -50,7 +50,7 @@ register_toolchains("@llvm_toolchain//:all")
 
 # tooling
 bazel_dep(name = "score_tooling", version = "1.0.1")
-bazel_dep(name = "aspect_rules_lint", version = "1.5.3")
+bazel_dep(name = "aspect_rules_lint", version = "1.4.4")
 bazel_dep(name = "buildifier_prebuilt", version = "8.2.0.2")
 
 #docs-as-code
